@@ -1,0 +1,974 @@
+{
+"act1": {
+	"background": "act1.png",
+	"scene1": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mesit.png",
+					"scale": 0.7,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 30, "y": 80},
+					"end": {"x": 30, "y": 10, "speed": 2, "delay": 1, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 10, "duration": -1, "delay": 0} ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene2": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"languages": {"sprite": "languages.png", "scale": 1,
+					"origin": {"x": 343, "y": 0},
+					"start": {"x": 40, "y": -100},
+					"end": {"x": 40, "y": -50, "speed": 3, "delay": 1, "ease": "cubic-bezier(0.25, 1.25, 0.4, 1)"},
+					"animations": [ ]
+				}},
+			"actors": {
+				"me": {"sprite": "mesitlookright.png", "scale": 0.7,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 30, "y": 10},
+					"end": {"x": -5, "y": 10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene3": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"languages": {"sprite": "languages.png", "scale": 1,
+					"origin": {"x": 343, "y": 0},
+					"start": {"x": 40, "y": -50},
+					"end": {"x": 40, "y": -65, "speed": 2, "delay": 0, "ease": "ease"},
+					"animations": [ ]
+				}},
+			"actors": {
+				"me": {"sprite": "mesitlookright.png", "scale": 0.7,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -5, "y": 10},
+					"end": {"x": -5, "y": 10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { 
+			"decorations": {
+				"python": {"sprite": "python.png", "scale": 1,
+					"origin": {"x": 171, "y": 652},
+					"start": {"x": 100, "y": 50},
+					"end": {"x": 50, "y": 40, "speed": 2, "delay": 0, "ease": "ease-out"},
+					"animations": [ {"type": "bob", "ease": "ease-in-out", "speed": 7, "duration": -1, "delay": 0} ]
+				}},
+			"actors": {} }
+	},
+	"scene4": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"languages": {"sprite": "languages.png", "scale": 1,
+					"origin": {"x": 343, "y": 0},
+					"start": {"x": 40, "y": -65},
+					"end": {"x": 40, "y": -65, "speed": 2, "delay": 0, "ease": "ease"},
+					"animations": [ ]
+				}},
+			"actors": {
+				"me": {"sprite": "mesitlookright.png", "scale": 0.7,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -5, "y": 10},
+					"end": {"x": -5, "y": 10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { 
+			"decorations": {
+				"python": {"sprite": "python.png", "scale": 1,
+					"origin": {"x": 171, "y": 652},
+					"start": {"x": 50, "y": 40},
+					"end": {"x": 50, "y": 100, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				},
+				"html": {"sprite": "html.png", "scale": 0.9,
+					"origin": {"x": 183, "y": 662},
+					"start": {"x": 50, "y": 100},
+					"end": {"x": 50, "y": 35, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "bob", "ease": "ease-in-out", "speed": 7, "duration": -1, "delay": 0} ]
+				}},
+			"actors": {} }
+	},
+	"scene5": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"languages": {"sprite": "languages.png", "scale": 1,
+					"origin": {"x": 343, "y": 0},
+					"start": {"x": 40, "y": -65},
+					"end": {"x": 40, "y": -65, "speed": 2, "delay": 0, "ease": "ease"},
+					"animations": [ ]
+				}},
+			"actors": {
+				"me": {"sprite": "mesitlookright.png", "scale": 0.7,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -5, "y": 10},
+					"end": {"x": -5, "y": 10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { 
+			"decorations": {
+				"html": {"sprite": "html.png", "scale": 0.9,
+					"origin": {"x": 183, "y": 662},
+					"start": {"x": 50, "y": 35},
+					"end": {"x": 50, "y": 100, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				},
+				"css": {"sprite": "css.png", "scale": 0.7,
+					"origin": {"x": 235, "y": 890},
+					"start": {"x": 50, "y": 100},
+					"end": {"x": 50, "y": 15, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "bob", "ease": "ease-in-out", "speed": 7, "duration": -1, "delay": 0} ]
+				}},
+			"actors": {} }
+	},
+	"scene6": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"languages": {"sprite": "languages.png", "scale": 1,
+					"origin": {"x": 343, "y": 0},
+					"start": {"x": 40, "y": -65},
+					"end": {"x": 40, "y": -65, "speed": 2, "delay": 0, "ease": "ease"},
+					"animations": [ ]
+				}},
+			"actors": {
+				"me": {"sprite": "mesitlookright.png", "scale": 0.7,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -5, "y": 10},
+					"end": {"x": -5, "y": 10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { 
+			"decorations": {
+				"css": {"sprite": "css.png", "scale": 0.7,
+					"origin": {"x": 235, "y": 890},
+					"start": {"x": 50, "y": 15},
+					"end": {"x": 50, "y": 100, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				},
+				"js": {"sprite": "js.png", "scale": 1.2,
+					"origin": {"x": 235, "y": 890},
+					"start": {"x": 60, "y": 100},
+					"end": {"x": 60, "y": 45, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "bob", "ease": "ease-in-out", "speed": 7, "duration": -1, "delay": 0} ]
+				}},
+			"actors": {} }
+	},
+	"scene7": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"languages": {"sprite": "languages.png", "scale": 1,
+					"origin": {"x": 343, "y": 0},
+					"start": {"x": 40, "y": -65},
+					"end": {"x": 40, "y": -65, "speed": 2, "delay": 0, "ease": "ease"},
+					"animations": [ ]
+				}},
+			"actors": {
+				"me": {"sprite": "mesitlookright.png", "scale": 0.7,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -5, "y": 10},
+					"end": {"x": -5, "y": 10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { 
+			"decorations": {
+				"js": {"sprite": "js.png", "scale": 1.2,
+					"origin": {"x": 235, "y": 890},
+					"start": {"x": 60, "y": 45},
+					"end": {"x": 60, "y": 120, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				},
+				"json": {"sprite": "json.png", "scale": 0.7,
+					"origin": {"x": 235, "y": 890},
+					"start": {"x": 50, "y": 100},
+					"end": {"x": 50, "y": 25, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "bob", "ease": "ease-in-out", "speed": 7, "duration": -1, "delay": 0} ]
+				}},
+			"actors": {} }
+	},
+	"scene8": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"languages": {"sprite": "languages.png", "scale": 1,
+					"origin": {"x": 343, "y": 0},
+					"start": {"x": 40, "y": -65},
+					"end": {"x": 40, "y": -150, "speed": 2, "delay": 0, "ease": "ease"},
+					"animations": [ ]
+				}},
+			"actors": {
+				"me": {"sprite": "mesit.png", "scale": 0.7,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -5, "y": 10},
+					"end": {"x": 30, "y": 10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { 
+			"decorations": {
+				"json": {"sprite": "json.png", "scale": 0.7,
+					"origin": {"x": 235, "y": 890},
+					"start": {"x": 50, "y": 25},
+					"end": {"x": 50, "y": 100, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "bob", "ease": "ease-in-out", "speed": 7, "duration": -1, "delay": 0} ]
+				}},
+			"actors": {} }
+	}
+},
+"act2": {
+	"background": "act2.png",
+	"scene1": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestand.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 30, "y": 80},
+					"end": {"x": 30, "y": -10, "speed": 2, "delay": 1, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 10, "duration": -1, "delay": 0} ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene2": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"html": {"sprite": "html.png", "scale": 0.9,
+					"origin": {"x": 235, "y": 890},
+					"start": {"x": 50, "y": 100},
+					"end": {"x": 50, "y": 25, "speed": 0.4, "delay": 1, "ease": "ease-in-out"},
+					"animations": [ ]
+				}},
+			"actors": {
+				"me": {
+					"sprite": "mestandhammer.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 30, "y": -10},
+					"end": {"x": 20, "y": -10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 10, "duration": -1, "delay": 0} ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene3": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"html": {"sprite": "html.png", "scale": 0.9,
+					"origin": {"x": 235, "y": 890},
+					"start": {"x": 50, "y": 25},
+					"end": {"x": 200, "y": 25, "speed": 0.2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}},
+			"actors": {
+				"me": {
+					"sprite": "mestandhammer.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 20, "y": -10},
+					"end": {"x": 20, "y": -10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "sledgeswing", "ease": "ease-out", "speed": 1, "duration": -1, "delay": 0}, 
+													{"type": "breathe", "ease": "ease-in-out", "speed": 10, "duration": -1, "delay": 0.9} ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene4": {
+		"front": { "decorations": {
+				"gradcap": {"sprite": "gradcap.png", "scale": 0.4,
+					"origin": {"x": 180, "y": 180},
+					"start": {"x": 70, "y": -100},
+					"end": {"x": 70, "y": 100, "speed": 8, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "spin", "ease": "linear", "speed": 2, "duration": -1, "delay": 0} ]
+				}}, 
+				"actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestandhammer.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 20, "y": -10},
+					"end": {"x": -100, "y": -10, "speed": 2, "delay": 10, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 10, "duration": -1, "delay": 0} ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	}
+},
+"act3": {
+	"background": "act3.png",
+	"scene1": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestand.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -100, "y": -20},
+					"end": {"x": 10, "y": -20, "speed": 4, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "walk", "ease": "ease-in-out", "speed": 0.8, "duration": -1, "delay": 0},
+													{"type": "breathe", "ease": "ease-in-out", "speed": 10, "duration": -1, "delay": 3.8}	]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene2": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"holygrail": {
+					"sprite": "holygrail.png",
+					"scale": 1,
+					"origin": {"x": 180, "y": 350},
+					"start": {"x": 100, "y": 20},
+					"end": {"x": 70, "y": 20, "speed": 3, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "bob", "ease": "ease", "speed": 9, "duration": -1, "delay": 0}	]
+				}},
+			"actors": {
+				"me": {
+					"sprite": "mestand.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 10, "y": -20},
+					"end": {"x": 10, "y": -20, "speed": 4, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 10, "duration": -1, "delay": 0} ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene3": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"holygrail": {
+					"sprite": "holygrail.png",
+					"scale": 1,
+					"origin": {"x": 180, "y": 350},
+					"start": {"x": 70, "y": 20},
+					"end": {"x": 150, "y": 20, "speed": 0, "delay": 4, "ease": "ease-in-out"},
+					"animations": [ {"type": "fadeout", "ease": "ease", "speed": 5, "duration": -1, "delay": 0}	]
+				},
+				"poofgpt": {
+					"sprite": "poofgpt.png",
+					"scale": 0.8,
+					"origin": {"x": 180, "y": 350},
+					"start": {"x": 50, "y": 10},
+					"end": {"x": 50, "y": 10, "speed": 0.2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "bob", "ease": "ease", "speed": 9, "duration": -1, "delay": 4}	]
+				},
+				"poof": {
+					"sprite": "poof.png",
+					"scale": 0.8,
+					"origin": {"x": 180, "y": 350},
+					"start": {"x": 50, "y": 10},
+					"end": {"x": 150, "y": 10, "speed": 0, "delay": 4, "ease": "ease-in-out"},
+					"animations": [ {"type": "fadeout", "ease": "ease", "speed": 5, "duration": -1, "delay": 0}	]
+				}},
+			"actors": {
+				"me": {
+					"sprite": "mestand.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 10, "y": -20},
+					"end": {"x": 10, "y": -20, "speed": 4, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene4": {
+		"front": { "decorations": {
+				"gradcap": {"sprite": "gradcap.png", "scale": 0.5,
+					"origin": {"x": 180, "y": 180},
+					"start": {"x": 70, "y": -100},
+					"end": {"x": 70, "y": 100, "speed": 8, "delay": 10, "ease": "ease-in-out"},
+					"animations": [ {"type": "spin", "ease": "linear", "speed": 2, "duration": -1, "delay": 0} ]
+				}}, "actors": {} },
+		"mid": {
+			"decorations": {
+				"holygrail": {
+					"sprite": "holygrail.png",
+					"scale": 1,
+					"origin": {"x": 180, "y": 350},
+					"start": {"x": 150, "y": 20},
+					"end": {"x": 150, "y": 20, "speed": 0, "delay": 4, "ease": "ease-in-out"},
+					"animations": [ {"type": "fadeout", "ease": "ease", "speed": 5, "duration": -1, "delay": 0}	]
+				},
+				"poofgpt": {
+					"sprite": "poofgpt.png",
+					"scale": 0.8,
+					"origin": {"x": 180, "y": 350},
+					"start": {"x": 50, "y": 10},
+					"end": {"x": 150, "y": 10, "speed": 1, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "bob", "ease": "ease", "speed": 9, "duration": -1, "delay": 4}	]
+				},
+				"poof": {
+					"sprite": "poof.png",
+					"scale": 0.8,
+					"origin": {"x": 180, "y": 350},
+					"start": {"x": 150, "y": 10},
+					"end": {"x": 150, "y": 10, "speed": 0, "delay": 4, "ease": "ease-in-out"},
+					"animations": [ {"type": "fadeout", "ease": "ease", "speed": 5, "duration": -1, "delay": 0}	]
+				}},
+			"actors": {
+				"me": {
+					"sprite": "mestand.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 10, "y": -20},
+					"end": {"x": -6, "y": -20, "speed": 4, "delay": 2, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { "decorations": {
+				"train": {
+					"sprite": "languagetrain.png",
+					"scale": 0.3,
+					"origin": {"x": 180, "y": 350},
+					"start": {"x": 10, "y": -50},
+					"end": {"x": -80, "y": -50, "speed": 7, "delay": 0, "ease": "ease-out"},
+					"animations": [ {"type": "chug", "ease": "ease", "speed": 12, "duration": -1, "delay": 0}	]
+				}}, 
+				"actors": {} }
+	},
+	"scene5": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestand.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -6, "y": -20},
+					"end": {"x": 100, "y": -20, "speed": 4, "delay": 5, "ease": "ease-in-out"},
+					"animations": [ {"type": "walk", "ease": "ease-in-out", "speed": 0.8, "duration": -1, "delay": 5} ]
+				}
+			}
+		},
+		"back": { "decorations": {
+				"train": {
+					"sprite": "languagetrain.png",
+					"scale": 0.3,
+					"origin": {"x": 180, "y": 350},
+					"start": {"x": -80, "y": -50},
+					"end": {"x": -200, "y": -50, "speed": 7, "delay": 0, "ease": "ease-in"},
+					"animations": [ {"type": "chug", "ease": "ease", "speed": 12, "duration": -1, "delay": 0}	]
+				}}, 
+				"actors": {} }
+	}
+},
+"act4": {
+	"background": "act4.png",
+	"scene1": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestand.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -30, "y": -20},
+					"end": {"x": 10, "y": -10, "speed": 8, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "walk", "ease": "ease-in-out", "speed": 2, "duration": -1, "delay": 0},
+													{"type": "breathe", "ease": "ease-in-out", "speed": 12, "duration": -1, "delay": 7.8}	]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene2": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestand.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 10, "y": -10},
+					"end": {"x": 10, "y": 100, "speed": 0.2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "walk", "ease": "ease-in-out", "speed": 2, "duration": -1, "delay": 0},
+													{"type": "breathe", "ease": "ease-in-out", "speed": 12, "duration": -1, "delay": 7.8}	]
+				},
+				"mesit": {
+					"sprite": "mesitlookright.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 7, "y": 100},
+					"end": {"x": 7, "y": 25, "speed": 0.2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 9, "duration": -1, "delay": 0}	]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene3": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"mesit": {
+					"sprite": "mesitworry.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 7, "y": 25},
+					"end": {"x": 7, "y": 25, "speed": 8, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 6, "duration": -1, "delay": 0}	]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene4": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"mesit": {
+					"sprite": "mesitcry.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 7, "y": 25},
+					"end": {"x": 7, "y": 25, "speed": 8, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 3, "duration": -1, "delay": 0}	]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene5": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"mesit": {
+					"sprite": "mesitcry.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 7, "y": 25},
+					"end": {"x": 7, "y": 25, "speed": 15, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "shakesmall", "ease": "ease-in-out", "speed": 0.2, "duration": -1, "delay": 0}	]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene6": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"mesit": {
+					"sprite": "mesitcry.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 7, "y": 25},
+					"end": {"x": 7, "y": 70, "speed": 1, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "shakesmall", "ease": "ease-in-out", "speed": 0.2, "duration": -1, "delay": 0}	]
+				},
+				"melay": {
+					"sprite": "melay.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 400},
+					"start": {"x": -5, "y": 80},
+					"end": {"x": -5, "y": 60, "speed": 1, "delay": 0.2, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 20, "duration": -1, "delay": 0}	]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene7": {
+		"front": { "decorations": {
+				"gradcap": {"sprite": "gradcap.png", "scale": 0.5,
+					"origin": {"x": 180, "y": 180},
+					"start": {"x": 22, "y": -100},
+					"end": {"x": 22, "y": 60, "speed": 8, "delay": 0, "ease": "linear"},
+					"animations": [ {"type": "spin", "ease": "linear", "speed": 2, "duration": -1, "delay": 0},
+													{"type": "breathe", "ease": "ease-in-out", "speed": 20, "duration": -1, "delay": 8} ]
+				}}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"melay": {
+					"sprite": "melay.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 400},
+					"start": {"x": -5, "y": 60},
+					"end": {"x": -5, "y": 60, "speed": 1, "delay": 0.2, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 20, "duration": -1, "delay": 0}	]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene8": {
+		"front": { "decorations": {
+				"gradcap": {"sprite": "gradcap.png", "scale": 0.5,
+					"origin": {"x": 180, "y": 180},
+					"start": {"x": 22, "y": 60},
+					"end": {"x": 200, "y": -100, "speed": 0.2, "delay": 0, "ease": "linear"},
+					"animations": [	{"type": "breathe", "ease": "ease-in-out", "speed": 20, "duration": -1, "delay": 0} ]
+				}}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"melay": {
+					"sprite": "melay.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 400},
+					"start": {"x": -5, "y": 60},
+					"end": {"x": -5, "y": 60, "speed": 1, "delay": 0.2, "ease": "ease-in-out"},
+					"animations": [ {"type": "sledgeswing", "ease": "ease-out", "speed": 1, "duration": -1, "delay": 0},
+													{"type": "breathe", "ease": "ease-in-out", "speed": 20, "duration": -1, "delay": 0.9}	]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene9": {
+		"front": { "decorations": {
+				"gradcap": {"sprite": "gradcap.png", "scale": 0.5,
+					"origin": {"x": 180, "y": 180},
+					"start": {"x": 200, "y": -100},
+					"end": {"x": 200, "y": -100, "speed": 0, "delay": 0, "ease": "linear"},
+					"animations": [ ]
+				}}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"melay": {
+					"sprite": "melay.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 400},
+					"start": {"x": -5, "y": 60},
+					"end": {"x": -5, "y": 100, "speed": 1, "delay": 0.2, "ease": "ease-in-out"},
+					"animations": [	{"type": "breathe", "ease": "ease-in-out", "speed": 20, "duration": -1, "delay": 0}	]
+				},
+				"me": {
+					"sprite": "mestandsad.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 10, "y": 120},
+					"end": {"x": 10, "y": -10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 10, "duration": -1, "delay": 0} ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	}
+},
+"act5": {
+	"background": "act5.png",
+	"scene1": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestandsad.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -30, "y": -20},
+					"end": {"x": 10, "y": -10, "speed": 12, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "walk", "ease": "linear", "speed": 3, "duration": -1, "delay": 0},
+													{"type": "breathe", "ease": "ease-in-out", "speed": 12, "duration": -1, "delay": 11.8} ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene2": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestandsadlookup.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 10, "y": -10},
+					"end": {"x": 0, "y": -10, "speed": 3, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 12, "duration": -1, "delay": 0} ]
+				},
+				"dragon": {
+					"sprite": "dragon.png",
+					"scale": 0.8,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 100, "y": 10},
+					"end": {"x": 20, "y": 10, "speed": 2, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 6, "duration": -1, "delay": 0} ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene3": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestandsadlookup.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 0, "y": -10},
+					"end": {"x": 0, "y": -10, "speed": 3, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 12, "duration": -1, "delay": 0} ]
+				},
+				"dragon": {
+					"sprite": "dragon.png",
+					"scale": 0.8,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 20, "y": 10},
+					"end": {"x": 20, "y": 100, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 6, "duration": -1, "delay": 0} ]
+				},
+				"door": {
+					"sprite": "door.png",
+					"scale": 0.8,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 20, "y": 100},
+					"end": {"x": 20, "y": 10, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {} }
+	},
+	"scene4": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestandsadlookup.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 0, "y": -10},
+					"end": {"x": 20, "y": -10, "speed": 3, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "walk", "ease": "linear", "speed": 3, "duration": -1, "delay": 0},
+													{"type": "breathe", "ease": "ease-in-out", "speed": 12, "duration": -1, "delay": 3} ]
+				}
+			}
+		},
+		"back": { "decorations": {}, "actors": {
+				"door": {
+					"sprite": "door.png",
+					"scale": 0.8,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 20, "y": 10},
+					"end": {"x": 20, "y": 10, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}} }
+	},
+	"scene5": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestandsadlookup.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 20, "y": -10},
+					"end": {"x": 100, "y": -10, "speed": 15, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "walk", "ease": "linear", "speed": 3, "duration": -1, "delay": 0} ]
+				},
+				"me2": {
+					"sprite": "mestandsad.png",
+					"scale": 0.4,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -50, "y": -10},
+					"end": {"x": 100, "y": -10, "speed": 15, "delay": 10, "ease": "ease-in-out"},
+					"animations": [ {"type": "walk", "ease": "linear", "speed": 2.5, "duration": -1, "delay": 0} ]
+				},
+				"me3": {
+					"sprite": "mestandsad.png",
+					"scale": 0.3,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -50, "y": -10},
+					"end": {"x": 100, "y": -10, "speed": 15, "delay": 20, "ease": "ease-in-out"},
+					"animations": [ {"type": "walk", "ease": "linear", "speed": 2, "duration": -1, "delay": 0} ]
+				},
+				"me4": {
+					"sprite": "mestandsad.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -50, "y": -10},
+					"end": {"x": 10, "y": -10, "speed": 10, "delay": 30, "ease": "ease-in-out"},
+					"animations": [ {"type": "walk", "ease": "linear", "speed": 3, "duration": -1, "delay": 0},
+													{"type": "breathe", "ease": "ease-in-out", "speed": 6, "duration": -1, "delay": 45} ]
+				}
+			}
+		},
+		"back": { "decorations": {
+				"lightbulb": {
+					"sprite": "lightbulboff.png",
+					"scale": 1,
+					"origin": {"x": 0, "y": 0},
+					"start": {"x": 100, "y": 0},
+					"end": {"x": 0, "y": 0, "speed": 10, "delay": 35, "ease": "ease-in-out"},
+					"animations": [ ]
+				}}, "actors": {
+				"door": {
+					"sprite": "dooropen.png",
+					"scale": 0.8,
+					"origin": {"x": 623, "y": 271},
+					"start": {"x": 20, "y": 10},
+					"end": {"x": 20, "y": 10, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "growhuge", "ease": "ease", "speed": 10, "duration": -1, "delay": 0},
+													{"type": "grownhuge", "ease": "linear", "speed": 12, "duration": -1, "delay": 10} ]
+				}} }
+	},
+	"scene6": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestandsadlookupreach.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 10, "y": -10},
+					"end": {"x": 10, "y": -10, "speed": 0, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "clickswitch", "ease": "ease-in-out", "speed": 2, "duration": -1, "delay": 0},
+													{"type": "breathe", "ease": "ease-in-out", "speed": 6, "duration": -1, "delay": 2} ]
+				},
+				"me2": {
+					"sprite": "mestandsad.png",
+					"scale": 0.4,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -100, "y": -10},
+					"end": {"x": -100, "y": -10, "speed": 15, "delay": 10, "ease": "ease-in-out"},
+					"animations": [ ]
+				},
+				"me3": {
+					"sprite": "mestandsad.png",
+					"scale": 0.3,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -100, "y": -10},
+					"end": {"x": -100, "y": -10, "speed": 15, "delay": 20, "ease": "ease-in-out"},
+					"animations": [ ]
+				},
+				"me4": {
+					"sprite": "mestandsad.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": -100, "y": 0},
+					"end": {"x": -100, "y": 0, "speed": 10, "delay": 30, "ease": "ease-in-out"},
+					"animations": [ ]
+				}
+			}
+		},
+		"back": { "decorations": {
+				"lightbulb": {
+					"sprite": "lightbulboff.png",
+					"scale": 1,
+					"origin": {"x": 0, "y": 0},
+					"start": {"x": 0, "y": 0},
+					"end": {"x": 0, "y": 0, "speed": 10, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				},
+				"lightbulbon": {
+					"sprite": "lightbulbon.png",
+					"scale": 1,
+					"origin": {"x": 0, "y": 0},
+					"start": {"x": 0, "y": 0},
+					"end": {"x": 0, "y": 0, "speed": 0, "delay": 2, "ease": "ease-in-out"},
+					"animations": [ {"type": "apear", "ease": "linear", "speed": 2, "duration": 1, "delay": 0} ]
+				}}, "actors": {
+				"door": {
+					"sprite": "dooropen.png",
+					"scale": 0.8,
+					"origin": {"x": 623, "y": 271},
+					"start": {"x": 20, "y": 10},
+					"end": {"x": 20, "y": 10, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "grownhuge", "ease": "linear", "speed": 12, "duration": -1, "delay": 0} ]
+				}} }
+	},
+	"scene7": {
+		"front": { "decorations": {}, "actors": {} },
+		"mid": {
+			"decorations": {},
+			"actors": {
+				"me": {
+					"sprite": "mestandsadlookuphappy.png",
+					"scale": 0.6,
+					"origin": {"x": 275, "y": 800},
+					"start": {"x": 10, "y": -10},
+					"end": {"x": 10, "y": -10, "speed": 0, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ {"type": "breathe", "ease": "ease-in-out", "speed": 6, "duration": -1, "delay": 0} ]
+				}
+			}
+		},
+		"back": { "decorations": {
+				"lightbulb": {
+					"sprite": "lightbulboff.png",
+					"scale": 1,
+					"origin": {"x": 10000, "y": 0},
+					"start": {"x": 10000, "y": 0},
+					"end": {"x": 0, "y": 0, "speed": 10, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				},
+				"lightbulbon": {
+					"sprite": "lightbulbon.png",
+					"scale": 1,
+					"origin": {"x": 0, "y": 0},
+					"start": {"x": 0, "y": 0},
+					"end": {"x": 0, "y": 0, "speed": 0, "delay": 2, "ease": "ease-in-out"},
+					"animations": [ {"type": "none", "ease": "ease-in-out", "speed": 6, "duration": -1, "delay": 0} ]
+				}}, "actors": {
+				"door": {
+					"sprite": "dooropen.png",
+					"scale": 0.8,
+					"origin": {"x": 623, "y": 271},
+					"start": {"x": 10000, "y": 10},
+					"end": {"x": 10000, "y": 10, "speed": 0.5, "delay": 0, "ease": "ease-in-out"},
+					"animations": [ ]
+				}} }
+	}
+}
+}
